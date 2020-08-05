@@ -1,10 +1,14 @@
 import React from 'react';
+
+import './styles.css';
 import PageHeader from '../../components/PageHeader';
 import Input from '../../components/Input';
 
+import warningIcon from '../../assets/images/icons/warning.svg';
+
 function TeacherForm(){
     return(
-        <div>
+        <div id="page-teacher-form" className="container" >
             <PageHeader title="Que incrível que você quer dar aulas"
             description="O primeiro passo é preencher esse formulário de inscrição"/>
             <main>
@@ -14,6 +18,19 @@ function TeacherForm(){
                     <Input name="avatar" label="Avatar"/>
                     <Input name="whatsapp" label="Whatsapp"/>
                 </fieldset>
+                <fieldset>
+                    <legend>Sobre a aula</legend>
+                    <Input name="subject" label="Matéria"/>
+                    <Input name="cost" label="Custo da sua aula por hora"/>
+                </fieldset>
+                <footer>
+                   <p>
+                       <img src={warningIcon} alt="Aviso importante"/>
+                        Importante! <br />
+                         Preencha todos os dados
+                   </p>
+                   <button type="submit">Salvar Cadastro</button>
+                </footer>
             </main>
         </div>
     )
