@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
         color: '#d4c2ff',
         fontSize: 12,
         lineHeight: 20,
-        maxWidth: 170,
+        maxWidth: 140,
         marginTop: 40,
     }
 
