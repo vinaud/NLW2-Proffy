@@ -7,7 +7,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 ## Descrição
-Em construção
+O Proffy é um projeto que busca promover a integração entre professores e pessoas com o desejo de aprender. Professores podem se cadastrar na plataforma, oferecendo os dias e horários que estão disponíveis para lecionar sua matéria. Os usuários, atráves de um sistema web ou pela versão mobile conseguem procurar pelos professores, de acordo com sua necessidade e então estabelecem contato.
 
 ## Tecnologias Usadas
 - NodeJS Versão 12.16.1 
