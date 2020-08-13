@@ -35,7 +35,7 @@ $ npm install
 - No módulo server executar as migrações com o comando :
 ```bash
 
-$ npm run knex:migrate
+$ yarn knex:migrate
 ```
 
 ### Execução em ambiente de desenvolvimento
@@ -43,19 +43,19 @@ $ npm run knex:migrate
 - Servidor backend na pasta server:
 ```bash
 
-$ npm run dev
+$ yarn start
 ```
 
 - Frontend web via next na pasta web:
 ```bash
 
-$ npm start
+$ yarn start
 ```
 
 - Aplicação móvel via expo na pasta mobile:
 ```bash
 
-$ npm start
+$ yarn start
 ```
 
 
