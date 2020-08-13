@@ -60,3 +60,7 @@ $ yarn start
 
 
 ## Telas do projeto
+
+![landing](https://i.imgur.com/zP66YIl.png)
+
+![cadastro](https://i.imgur.com/N28PFBO.png)
